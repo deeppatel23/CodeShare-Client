@@ -1,4 +1,5 @@
 import { io } from 'socket.io-client';
+const BACKEND_URL = process.env.SERVER_URL || 'http://localhost:5004'
 
 export const initSocket = async () => {
     const options = {
@@ -7,5 +8,5 @@ export const initSocket = async () => {
         timeout: 10000,
         transports: ['websocket'],
     };
-    return io('https://code-share-server.onrender.com', options);
+    return io(BACKEND_URL, options);
 };
