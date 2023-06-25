@@ -1,5 +1,5 @@
 import { io } from 'socket.io-client';
-const BACKEND_URL = process.env.SERVER_URL || 'http://localhost:5004'
+const BACKEND_URL = process.env.REACT_APP_BACKEND_SERVER_URL || 'http://localhost:5004'
 
 export const initSocket = async () => {
     const options = {
