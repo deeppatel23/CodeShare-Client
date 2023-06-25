@@ -8,7 +8,7 @@ CodeShare is a simple real-time code editor that allows users to collaborate on 
 The React client app is a web app that allows users to edit code in real-time. The app uses Socket.IO to communicate with the Node.js server. This app is deployed on render: https://code-share-7wx9.onrender.com/
 
 ### Node.js Server
-The Node.js server is responsible for managing the connections between users and for broadcasting code changes to all connected users. The server is also responsible for storing the code that is edited by users. The server app is also deployed on render: https://code-share-server.onrender.com/
+The Node.js server is responsible for managing the connections between users and for broadcasting code changes to all connected users. The server is also responsible for storing the code that is edited by users.
 
 ### Getting Started
 To get started with CodeShare, you will need to install the following dependencies:
