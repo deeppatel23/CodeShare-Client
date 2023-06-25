@@ -102,6 +102,8 @@ const EditorPage = () => {
                             className="logoImage"
                             src="/code-share.png"
                             alt="logo"
+                            width="100%"
+                            height="100%"
                         />
                     </div>
                     <h3>Connected</h3>
